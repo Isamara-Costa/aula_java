@@ -11,7 +11,7 @@ double salario = Double.parseDouble(IO.readln("Informe o seu salário: "));
     if (salario > 2000)
         salario = salario * 1.10;
     else
-        if (salario > 2000)
+        if (salario > 1000)
             salario = salario * 1.125;
         else 
             salario = salario * 1.15;
