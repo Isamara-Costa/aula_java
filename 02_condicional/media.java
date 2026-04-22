@@ -4,14 +4,14 @@ caso a média seja maior ou igual a 7,0; reprovado se a média encontrada for me
 
 void main(){
 
-    float nota1 = Integer.parseInt(IO.readln("Informe a nota da 1a unidade: "));
-    float nota2 = Integer.parseInt(IO.readln("Informe a nota da 2a unidade: "));
-    float nota3 = Integer.parseInt(IO.readln("Informe a nota da 3a unidade: "));
+    float nota1 = Float.parseFloat(IO.readln("Informe a nota da 1a unidade: "));
+    float nota2 = Float.parseFloat(IO.readln("Informe a nota da 2a unidade: "));
+    float nota3 = Float.parseFloat(IO.readln("Informe a nota da 3a unidade: "));
 
     float media = (nota1 + nota2 + nota3 ) / 3;
 
     if (media>=7)
-        System.out.printf("Aprovado com média %.2f \n", media);
+        IO.println("Aprovado com média: " + media);
     else
-        System.out.printf("Reprovado com média %.2f \n", media);
+        System.out.printf("Reprovado com média: %.2f \n", media);
 }
