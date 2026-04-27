@@ -8,8 +8,9 @@ void main() {
     int Num1 = Integer.parseInt(IO.readln("Insira um número: "));
 
     if (Num1<1) {
-        
+       Num1 =  Num1 * (-1);
+       IO.println(" O número é: " + Num1);
     } else {
-        
+       IO.println(" O número é: " + Num1); 
     }
 }
