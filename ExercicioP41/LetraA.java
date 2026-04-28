@@ -8,7 +8,7 @@ void main(){
 
     float resultado;
 
-     if (a>b) {
+     if (a>=b) {
        resultado =a-b;
        IO.println("A difereça de A-B é: " + resultado); 
     } else {

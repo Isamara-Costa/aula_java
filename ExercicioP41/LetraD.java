@@ -16,11 +16,12 @@ void main(){
 
     if (media>=7)
         IO.println("O aluno foi aprovado");
-    else
+    else {
         float nota5 = Float.parseFloat(IO.readln("insira a nota do exame: "));
         float exame = (media + nota5)/2;
          if (exame>=5)
             IO.println("O Aluno aprovado em prova final com média: " + exame);
         else
             IO.println("O Aluno foi reprovado com média: " + exame);
+    }
 }
