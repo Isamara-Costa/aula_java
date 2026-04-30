@@ -9,7 +9,7 @@ void main() {
 
     double saldoTotal = 0;
 
-    //Estrutura de repetição while
+    //Estrutura de repetição do-while
     do {
         
         //Lógica: Adiciona o depósito e aplica os juros sobre o saldo acumulado
