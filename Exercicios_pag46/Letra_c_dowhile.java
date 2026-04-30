@@ -2,13 +2,14 @@
 1 até 500. */
 
 void main(){
-
+    int numero= 0;
     int soma= 0;
 
-    for(int numero=0; numero<=500; numero=numero+2){
+    do {
         soma=soma + numero;
+        numero = numero +2;
         //IO.println("a soma é "+soma);
-    }
+    } while(numero<=500);
     IO.println("-----------------------");
     IO.println("A soma dos número pares de 1 a 500 é: "+ soma);
 }

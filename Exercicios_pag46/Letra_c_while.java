@@ -2,11 +2,12 @@
 1 até 500. */
 
 void main(){
-
+    int numero= 0;
     int soma= 0;
 
-    for(int numero=0; numero<=500; numero=numero+2){
+    while(numero<=500){
         soma=soma + numero;
+        numero = numero +2;
         //IO.println("a soma é "+soma);
     }
     IO.println("-----------------------");
