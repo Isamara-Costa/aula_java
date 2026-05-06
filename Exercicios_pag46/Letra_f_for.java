@@ -4,13 +4,14 @@ e E o valor do expoente. Observe que neste exercício não pode ser utilizado o 
 portuguol (^). */
 
 void main(){
-    int numero = Integer.parseInt(IO.readln("Insira o número da base: "));
+    int base = Integer.parseInt(IO.readln("Insira o número da base: "));
     int expoente = Integer.parseInt(IO.readln("Insira o número do expoente: "));
-    int contorle =1;
+    int resposta =1;
 
-    //do {
-      //  IO.println(numero + " elevado a "+ expoente + " = " + (Math.pow(numero,expoente)));
-   // } while(contorle<=expoente);
+    for(int controle=1; controle<=expoente; controle++)
+        resposta = resposta * base;
 
-    IO.println(numero + " elevado a "+ expoente + " = " + (Math.pow(numero,expoente)));
+    IO.println(base + " elevado a "+ expoente+ " = "+ resposta);
+
+
 } 
